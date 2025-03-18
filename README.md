@@ -28,22 +28,8 @@ An **interactive GIS dashboard** further illustrates population and mortality tr
   - **Population Growth Model**: \( R^2 = 0.641 \) and \( \text{MSE} \approx 0.112 \)  
 - **Policy Impact**: Strict law enforcement, mandatory speed governors, public education (like *Gerayo Amahoro*), and other initiatives appear to reduce fatality rates despite rising population.
 
-## How to Use
-1. **Clone or Download** the repository (via the green “Code” button on GitHub).
-2. **Open/Review the Code**:
-   - Examine `project_codes` (e.g., `analysis.py` or `main.ipynb`, depending on your filename) in your local environment or online to see how data is preprocessed, models are built, and results are generated.
-3. **Install Dependencies** (if using Python):
-   - Typically:
-     ```bash
-     pip install pandas numpy scikit-learn matplotlib
-     ```
-     (Add or remove libraries as needed.)
-4. **Run the Scripts**:
-   - Execute the Python scripts in your preferred IDE or notebook environment to:
-     - Load and clean data.
-     - Fit Decision Tree models.
-     - Generate figures and statistical outputs (MSE, R², correlation).
-5. **Explore the Dashboard**:
+
+4. **Explore the Dashboard**:
    - **[GIS Dashboard Link](https://www.arcgis.com/apps/dashboards/e7f68152e62542589a1d73b6c6994fb7)**
    - Interact with maps showing district-level population changes and traffic mortality rates.
 
@@ -58,5 +44,3 @@ An **interactive GIS dashboard** further illustrates population and mortality tr
 > - **OLS Regression & Hypothesis Testing** to assess statistical significance.  
 > - **GIS Dashboard** to visualize demographic changes and mortality in real time.
 
-## How to Cite
-If you use or build upon this work, please cite it as:
